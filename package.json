@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@babel/core": "7",
+    "@babel/preset-env": "7",
+    "babel-loader": "8.2.3",
+    "webpack": "4",
+    "webpack-cli": "4"
+  },
+  "devDependencies": {}
+}

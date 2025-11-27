@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LogBrowser Test</title>
+</head>
+<body>
+    <script src="./src/logtypes.js"></script>
+    <script src="./src/logbrowser.bundle.js"></script>
+    <script>
+                const logger = new LogBrowser.Logger();
+
+        logger.info("This is an info log");
+        logger.warn("This is a warning log");
+        logger.error("This is an error log");
+        logger.debug("Debug log");
+
+        console.log("All logs:", logger.getLogs());
+    </script>
+</body>
+</html>
