@@ -8,8 +8,7 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         library: 'LogBrowser',   // UMD global name
         libraryTarget: 'umd',    // UMD output
-        globalObject: 'self'     // works in browser & worker
-        // iife: true <-- REMOVE THIS
+        globalObject: 'self'     
     },
     module: {
         rules: [
